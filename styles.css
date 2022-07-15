@@ -1,18 +1,22 @@
 body {
   color: white;
   background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
 }
 
-.header {
-  display: flex;
-  
+div.quote {
+  width: 50%;
+  background-color: grey;
 }
 
 a {
   text-decoration: none;
   color: white;
+  gap: 8p
 }
 
 ul {
   list-style-type: none;
+  display: flex;
 }
