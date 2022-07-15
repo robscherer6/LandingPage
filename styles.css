@@ -35,6 +35,10 @@ img {
   width: 100px;
 }
 
+.imgs {
+  display: flex;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -63,11 +67,13 @@ ul {
   margin: 0px;
   padding: 0px;
   gap: 16px;
-
+  margin-left: auto;
 }
+
 
 li {
   display: flex;
+  text-align: right;
 }
 
 .footer {
