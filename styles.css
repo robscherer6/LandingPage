@@ -4,12 +4,16 @@ body {
   flex-direction: column;
 }
 
+button {
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
 .top {
   background-color: #1F2937;
 }
 
 div.quote {
-  width: 50%;
   background-color: grey;
   padding: 16px;
 }
@@ -33,8 +37,28 @@ a {
   gap: 8p
 }
 
+.action {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  color: white;
+  background-color: #3882F6;
+  border-radius: 12px;;
+  padding: 32px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   list-style-type: none;
+  display: flex;
+}
+
+li {
   display: flex;
 }
 
