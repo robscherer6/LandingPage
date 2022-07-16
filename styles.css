@@ -1,13 +1,27 @@
+* {
+  margin: 0px;
+}
+
+.dark .signup {
+  border: none;
+}
+
+.signup {
+  background-color: #3882F6;
+  border: 1px sold white;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 5px 25px;
+}
+
 body {
   color: white;
   display: flex;
   flex-direction: column;
 }
 
-button {
-  background-color: #3882F6;
-  border-radius: 8px;
-}
 
 .header,
 .footer {
@@ -76,9 +90,9 @@ li {
   text-align: right;
 }
 
-.footer {
+footer {
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1F2937;
 }
