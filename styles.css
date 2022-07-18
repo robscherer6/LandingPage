@@ -36,13 +36,6 @@ div.quote {
   padding: 16px;
 }
 
-.random {
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 img {
   border: solid black;
   height: 100px;
@@ -69,30 +62,117 @@ a {
   padding: 32px;
 }
 
-p {
+.blue div {
+  background-color: #3883f6;
+  border-radius: 10px;
+}
+
+.blue div strong {
+  color: white;
+  font-size: 20px;
+}
+
+.blue div p {
+  color: white;
+  font-size: 16px;
+}
+
+.blue {
+  width: 70%;
+  height: 300px;
+  margin: auto;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-ul {
-  list-style-type: none;
+.blue div {
   display: flex;
-  margin: 0px;
-  padding: 0px;
-  gap: 16px;
-  margin-left: auto;
 }
 
-
-li {
+.blue div .signup {
   display: flex;
-  text-align: right;
+  flex-direction: column;
+}
+
+.blue div div {
+  margin: 50px;
+}
+
+.quote {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote div {
+  width: 50%;
+}
+
+.dark .top-img {
+  width: 500px;
+}
+
+.sample-img {
+  width: 200px;
+}
+
+.quote div span {
+  float: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.random {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
+  width: 70%;
+  height: 500px;
+}
+
+.random .imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.random .info {
+  margin: 0px auto;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  width: 50px;
+  justify-content: space-around;
+}
+
+.top-div {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   height: 75px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+
+footer span {
+  padding-bottom: 20px;
 }
