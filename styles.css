@@ -27,11 +27,6 @@ footer span {
   padding-bottom: 20px;
 }
 
-div.quote {
-  background-color: grey;
-  padding: 16px;
-}
-
 .blue div {
   background-color: #3883f6;
   border-radius: 10px;
@@ -39,7 +34,7 @@ div.quote {
 
 .blue div strong {
   color: white;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .blue div p {
@@ -80,18 +75,18 @@ div.quote {
   width: 50%;
 }
 
+.quote div span {
+  float: right;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
 .dark .top-img {
   width: 500px;
 }
 
 .sample-img {
   width: 200px;
-}
-
-.quote div span {
-  float: right;
-  font-size: 32px;
-  font-weight: bolder;
 }
 
 .random {
@@ -123,7 +118,7 @@ nav {
 
 .links {
   display: flex;
-  width: 50px;
+  width: 50%;
   justify-content: space-around;
 }
 
@@ -176,9 +171,15 @@ nav {
 .quote .quote-text {
   font-size: 36px;
   font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  opacity: 0.6;
 }
 
 .dark {
   background-color: #1f2937;
 }
 
+.quote {
+  background-color: #e5e7eb;
+}
